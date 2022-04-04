@@ -64,7 +64,7 @@ const pintarCards = data => {
     for (let boton of botones){
         boton.addEventListener ("click", () =>{
             Swal.fire(
-                'Agregado Al Carrito!',
+                'Agregado Al Carrito!.',
                 'Muchas Gracias!',
                 'success'
               )
